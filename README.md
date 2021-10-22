@@ -122,8 +122,10 @@ main/master.
 
 ### Branches and PRs
 
-Develop your solutions on a separate branch then push your branch to GitHub when
-you're ready for a review. You'll know you're ready for review when you've
+Develop _every single solution_ on a separate branch then push each branch to
+GitHub when it's ready for a review. There should be 1 issue, 1 PR and 1 code
+review for _each and every_ solution submitted. You'll know you're ready for
+review when you've
 
 1. Formatted your code
 2. Generated your documentation
