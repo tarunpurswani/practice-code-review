@@ -14,6 +14,7 @@ make the transition to collaborative development much smoother.
   - [Developing Your Solutions](#developing-your-solution)
 - [Code Quality Automation](#code-quality-automation)
   - [`npm` scripts](#npm-scripts)
+  - [Code Coverate](#code-coverage)
   - [Continuous Integration](#continuous-integration)
 
 ---
@@ -324,6 +325,34 @@ The `npm run test` script uses [Jest](https://jestjs.io/) to run your tests and
 report the results.
 
 </details>
+
+### Code Coverage
+
+_Code Coverage_ is a measure of how many lines of code in your function are
+executed during testing. For example, a unit test for a solution that uses
+conditional statements does not have complete coverage until every path of the
+conditional is executed while running the tests.
+
+Each time you run the testing script in this repository it will build a report
+of your the most recent tests' coverage in
+[./coverage/lcov-report/index.html](./coverage/lcov-report/index.html). For
+example, if you test one challenge's tests the report will contain info for only
+that challenge. If you run all the tests (`npm run test -- ./src`) then there
+will be a report for every function in the `/src` directory.
+
+These reports will not be pushed to GitHub, but having poor code coverage will
+cause your CI to fail. So it's a good idea to read through the code coverage
+report for your solution before pushing.
+
+Careful! 100% code coverage does not mean 100% perfect code, it just means you
+have tested every line of your code. If your test cases are not correct, or if
+your function does the wrong thing, then perfect test coverage is not helpful.
+
+Here are some links that can help you interpret the reports:
+
+- [Amy Pellegrini (stackoverflow)](https://stackoverflow.com/a/36697606)
+- [Atlassian](https://www.atlassian.com/continuous-delivery/software-testing/code-coverage)
+- [Software Testing Help](https://www.softwaretestinghelp.com/code-coverage-tutorial/)
 
 ### Continuous Integration
 

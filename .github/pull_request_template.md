@@ -47,6 +47,7 @@ checked. Only the reviewer can check boxes.
   - [ ] There is no logic (loops, conditionals, ...) in the test cases
   - [ ] Side-effects are tested, if necessary
   - [ ] All tests pass in the CI check
+  - [ ] The tests have 100% coverage of the solution
   - [ ] Tricky edge cases are tested (extra credit)
 
 ## Strategy

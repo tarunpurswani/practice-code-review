@@ -21,7 +21,9 @@ export const sortNumbers = (arrOfNumbers = []) => {
   const copiedAndSorted = [...arrOfNumbers];
 
   // sort the copy according to
-  copiedAndSorted.sort((a, b) => a - b);
+  copiedAndSorted.sort((a, b) => {
+    return a - b;
+  });
 
   // return the copied & sorted array of numbers
   return copiedAndSorted;
