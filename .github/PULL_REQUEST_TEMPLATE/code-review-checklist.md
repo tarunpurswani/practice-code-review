@@ -12,7 +12,8 @@ title: 'Code Review: challenge name, strategy name'
   - request a review
 -->
 
-Before the reviewer merges this PR to main/master, all of these boxes must be checked. Only the reviewer can check boxes.
+Before the reviewer merges this PR to main/master, all of these boxes must be
+checked. Only the reviewer can check boxes.
 
 ## Behavior
 
@@ -74,7 +75,8 @@ Before the reviewer merges this PR to main/master, all of these boxes must be ch
 - **The solution file**
   - [ ] Has a JSDoc comment
   - [ ] Has an exported function
-  - [ ] Does no other code or comments outside of the function body (you can use `sandbox.js` for saving extra ideas)
+  - [ ] Does no other code or comments outside of the function body (you can use
+        `sandbox.js` for saving extra ideas)
 - **The function body _Should_ ...**
   - [ ] Be well and consistently formatted
   - [ ] Have clear and helpful variable names

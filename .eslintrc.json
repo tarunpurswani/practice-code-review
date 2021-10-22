@@ -5,7 +5,8 @@
     "prettier",
     "spellcheck",
     "filenames",
-    "folders"
+    "folders",
+    "sonarjs"
   ],
   "parserOptions": {
     "sourceType": "module"
@@ -41,7 +42,12 @@
       }
     }
   ],
-  "extends": ["eslint:recommended", "airbnb-base", "prettier"],
+  "extends": [
+    "eslint:recommended",
+    "airbnb-base",
+    "prettier",
+    "plugin:sonarjs/recommended"
+  ],
   "rules": {
     "no-var": 1,
     "prefer-const": 1,
@@ -87,6 +93,8 @@
       "warn",
       { "minLength": 4, "identifiers": false, "strings": false }
     ],
+
+    "sonarjs/prefer-immediate-return": 0
 
     "folders/match-regex": [2, "^(?!.*([-])\\1{1})[a-z-]+$", "src"],
     "filenames/match-regex": [2, "^(?!.*([-])\\1{1})[a-z-.spec]+$"],

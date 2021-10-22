@@ -1,10 +1,12 @@
 # Split Object
 
-Split an object into an array of objects. Each entry in the array will be one key/value pair from the object.
+Split an object into an array of objects. Each entry in the array will be one
+key/value pair from the object.
 
 ---
 
-Here's a starter docstring for your solutions. Feel free to rewrite it if that helps you understand:
+Here's a starter docstring for your solutions. Feel free to rewrite it if that
+helps you understand:
 
 ```js
 /**

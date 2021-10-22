@@ -6,7 +6,8 @@ Write a function that flattens nested arrays into a single array with no nesting
 
 ## Docstring
 
-Here's a starter docstring for your solutions. Feel free to rewrite it if that helps you understand:
+Here's a starter docstring for your solutions. Feel free to rewrite it if that
+helps you understand:
 
 ```js
 /**
@@ -28,4 +29,5 @@ Here's a starter docstring for your solutions. Feel free to rewrite it if that h
  */
 ```
 
-> Docstring is adapted from [lodash's flattenDeep](https://github.com/lodash/lodash/blob/4.17.15/lodash.js#L7330)
+> Docstring is adapted from
+> [lodash's flattenDeep](https://github.com/lodash/lodash/blob/4.17.15/lodash.js#L7330)

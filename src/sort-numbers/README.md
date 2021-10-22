@@ -1,12 +1,14 @@
 # Sort Numbers
 
-Write a function that sorts an array of numbers. There's many many strategies for sorting numbers, enjoy!
+Write a function that sorts an array of numbers. There's many many strategies
+for sorting numbers, enjoy!
 
 ---
 
 ## Docstring
 
-Here's a starter docstring for your solutions. Feel free to rewrite it if that helps you understand:
+Here's a starter docstring for your solutions. Feel free to rewrite it if that
+helps you understand:
 
 ```js
 /**
