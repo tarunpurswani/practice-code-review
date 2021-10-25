@@ -94,7 +94,7 @@
       { "minLength": 4, "identifiers": false, "strings": false }
     ],
 
-    "sonarjs/prefer-immediate-return": 0
+    "sonarjs/prefer-immediate-return": 0,
 
     "folders/match-regex": [2, "^(?!.*([-])\\1{1})[a-z-]+$", "src"],
     "filenames/match-regex": [2, "^(?!.*([-])\\1{1})[a-z-.spec]+$"],
