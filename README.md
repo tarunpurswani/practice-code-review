@@ -36,11 +36,11 @@ write ok solutions to hard challenges. So take it easy and have some fun.
 
 ### Template
 
-> [./template-solution](./template-solution)
+> [./.template-solution](./.template-solution)
 
 ```text
 /practice-code-review
-  /template-solution
+  /.template-solution
     /README.md
     /sandbox.js
     /solution-name.js
