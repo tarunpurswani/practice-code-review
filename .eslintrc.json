@@ -19,7 +19,8 @@
       "files": ["*.spec.js"],
       "rules": {
         "no-magic-numbers": 0,
-        "no-undefined": 0
+        "no-undefined": 0,
+        "sonarjs/no-duplicate-string": 0
       },
       "env": {
         "jest": true
