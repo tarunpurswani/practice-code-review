@@ -55,6 +55,8 @@
     "no-extra-parens": 1,
     "no-unreachable-loop": 1,
     "eqeqeq": 1,
+    "no-break": 0,
+    "no-continue": 0,
     "no-implicit-coercion": 1,
     "no-implicit-globals": 1,
     "no-lone-blocks": 1,
