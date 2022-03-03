@@ -1,13 +1,5 @@
 {
-  "plugins": [
-    "jsdoc",
-    "prefer-arrow",
-    "prettier",
-    "spellcheck",
-    "filenames",
-    "folders",
-    "sonarjs"
-  ],
+  "plugins": ["jsdoc", "prefer-arrow", "prettier", "sonarjs"],
   "parserOptions": {
     "sourceType": "module"
   },
@@ -35,8 +27,7 @@
         "no-lone-blocks": 0,
         "jsdoc/require-jsdoc": 0,
         "no-undefined": 0,
-        "no-unused-vars": 0,
-        "spellcheck/spell-checker": 0
+        "no-unused-vars": 0
       },
       "env": {
         "jest": true
@@ -92,15 +83,7 @@
 
     "prefer-arrow/prefer-arrow-functions": ["warn"],
 
-    "spellcheck/spell-checker": [
-      "warn",
-      { "minLength": 4, "identifiers": false, "strings": false }
-    ],
-
     "sonarjs/prefer-immediate-return": 0,
-
-    "folders/match-regex": [2, "^(?!.*([-])\\1{1})[a-z-]+$", "src"],
-    "filenames/match-regex": [2, "^(?!.*([-])\\1{1})[a-z-.spec]+$"],
 
     "jsdoc/check-alignment": 1,
     "jsdoc/check-indentation": 1,

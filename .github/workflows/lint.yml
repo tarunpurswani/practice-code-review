@@ -20,6 +20,7 @@ jobs:
 
       - run: npm install
 
+      - run: npm run format:check
       - run: npm run lint:ls
       - run: npm run lint:md
       - run: npm run lint:js -- ./src
