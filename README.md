@@ -23,7 +23,7 @@ make the transition to collaborative development much smoother.
 
 Your group's challenge is to write as many strategies and implementations as you
 can! Code quality should be your main focus. You'll practice formatting,
-linting, testing, documenting and code review.
+linting, testing, and code review.
 
 There are already a few challenges in the `/src` folder, but feel free to add a
 new one if there's a different problem you'd like to solve. And it's ok if
@@ -129,10 +129,9 @@ review for _each and every_ solution submitted. You'll know you're ready for
 review when you've
 
 1. Formatted your code
-2. Generated your documentation
-3. Passed your linting checks
-4. Passed all your tests
-5. Written your README
+2. Passed your linting checks
+3. Passed all your tests
+4. Written your README
 
 When you open your PR be sure to use the
 [Pull Request Template for code review](./.github/PULL_REQUEST_TEMPLATE/code-review-checklist.md).
@@ -230,33 +229,6 @@ people. They have built tools to help with all of this.
 This repository's [package.json](./package.json) has 4 scripts to help write the
 cleanest code you can:
 
-#### Documenting
-
-<details>
-<summary><code>$ npm run document</code></summary>
-<br>
-
-Documentation is very important for a project, it's how others know what code is
-in your repo and how it works. But writing documentation by hand takes a lot of
-time and is easy to mess up.
-
-Imagine you spend an hour documenting a few functions in your README, and then
-your colleague changes the code! Either you documentation will be wrong, or
-you'll need to spend a bunch more time fixing the documentation. To avoid this,
-developers have built tools that will automatically create documentation based
-on the JSDoc comments in your JavaScript files.
-
-The `npm run document` script in this repository uses
-[jsdoc-to-markdown](https://github.com/jsdoc2md/jsdoc-to-markdown/),
-[regular expressions](https://regexr.com/) and the Node.js
-[file system module](https://nodejs.org/dist/latest-v14.x/docs/api/fs.html) to
-generate the documentation in your solution READMEs.
-
-- PS. check out [lodash](https://lodash.com/docs) to see some great
-  documentation
-
-</details>
-
 #### Formatting
 
 <details>
@@ -321,8 +293,8 @@ will be in two different files:
 - `solution-name.js`: this file `export`s your function
 - `solution-name.spec.js`: this file `import`s your function for testing
 
-The `npm run test` script uses [Jest](https://jestjs.io/) to run your tests and
-report the results.
+The `test` script uses [Jest](https://jestjs.io/) to run your tests and report
+the results.
 
 </details>
 
@@ -364,15 +336,6 @@ of the scripts encounter a mistake you will not be able to merge.
 _hint: remember to
 [enable GitHub Actions](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository)
 in your repository!_
-
-#### [document.yml](./.github/workflows/document.yml)
-
-> `npm run document` locally to check if this action will pass
-
-This action will rebuild the documentation for your code each time someone sends
-a PR to or pushes to `main`/`master`. Using this action means that the
-documentation in your GitHub repository will always describe the code that is
-_actually_ on the master branch, not the code from 2 days ago.
 
 #### [lint.yml](./.github/workflows/lint.yml)
 

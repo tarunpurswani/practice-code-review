@@ -1,5 +1,5 @@
 {
-  "plugins": ["jsdoc", "prefer-arrow", "prettier", "sonarjs"],
+  "plugins": ["jsdoc", "prefer-arrow","sonarjs"],
   "parserOptions": {
     "sourceType": "module"
   },
@@ -37,7 +37,6 @@
   "extends": [
     "eslint:recommended",
     "airbnb-base",
-    "prettier",
     "plugin:sonarjs/recommended"
   ],
   "rules": {
@@ -79,7 +78,6 @@
     ],
     "camelcase": [2, { "properties": "never" }],
 
-    "prettier/prettier": ["error"],
 
     "prefer-arrow/prefer-arrow-functions": ["warn"],
 
